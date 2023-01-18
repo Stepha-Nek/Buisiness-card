@@ -1,0 +1,39 @@
+<meta charset="UTF 8"/>
+
+
+
+body{
+margin: 20px;
+font-family: verdana geneva tahoma sans-serif; /* this will enable the website to be viewed in verdana etc based on which font is available on the viewers computer*/
+margin: 100px;
+
+}
+
+.pic{
+width: 150px;
+border: 1px solid #F8F4E3;
+border-radius: 60px;
+}
+
+.card{
+width: 400px;
+margin-left:auto;
+margin-right: auto;/*all these three to center the card*/
+padding: 20px;
+display: flex;
+background: #D4CDC3;
+border: 2px solid #9A998C;
+justify-content:center; /*other options include start, end, space-around, space-between*/
+text-align: center; /* to center the elements in the card and not affect the whole body*/
+background:#F9DEC9; /*color of the background of the card*/
+color:#1E1E24; /*this is the color of the text*/
+border-bottom: 6px solid #A2A392;
+border-radius: 18px;
+
+}
+/*Flexbox turns every single direct child into a column. eg to group elements into two columns only in flexbox, group them into two divs where they stand as direct children of flexbox.*/
+.dotted-border{
+padding: 8px;
+margin: 10px;
+
+}
